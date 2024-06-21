@@ -1,2 +1,4 @@
-containerId = 'docker ps |awk-F""{'print $1'}'
-docker rm -f $containerId
+#!bin/bash
+#containerId = 'docker ps |awk-F""{'print $1'}'
+#docker rm -f $containerId
+sudo apt update
