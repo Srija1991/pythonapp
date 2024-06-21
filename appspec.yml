@@ -3,7 +3,7 @@ os: linux
 
 hooks:
   ApplicationStop:
-    - location: stop_container.sh
+    - location: stor.sh
       runas: root
   AfterInstall:
     - location: start_container.sh
