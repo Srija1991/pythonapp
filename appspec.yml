@@ -7,4 +7,3 @@ hooks:
       runas: root
   AfterInstall:
     - location: start_container.sh
-      runas: root
